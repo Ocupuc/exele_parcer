@@ -1,26 +1,14 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-package org.example.processors.true;
+package org.example.processors;
 
 import org.apache.nifi.util.TestRunner;
 import org.apache.nifi.util.TestRunners;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 public class MyProcessorTest {
 
     private TestRunner testRunner;
@@ -28,11 +16,60 @@ public class MyProcessorTest {
     @BeforeEach
     public void init() {
         testRunner = TestRunners.newTestRunner(MyProcessor.class);
+        testRunner.setProperty(MyProcessor.MY_PROPERTY, "Test-XLS");
     }
 
     @Test
     public void testProcessor() {
 
+    }
+//    @Test
+//    public void testOnTrigger() throws IOException {
+//        // Путь к тестовому файлу Excel в директории ресурсов
+//        Path testFilePath = Paths.get("src/test/resources/Unsupported.xls");
+//        byte[] fileContent = Files.readAllBytes(testFilePath);
+//
+//
+//
+//        // Запуск процессора с тестовым FlowFile
+//        testRunner.enqueue(fileContent);
+//        testRunner.run();
+//
+//        // Проверка, что процессор корректно обработал FlowFile
+//        testRunner.assertTransferCount(MyProcessor.REL_OK, 1);
+//        // Дополнительные проверки...
+//    }
+//
+//    @Test
+//    public  void testForFailSheet() throws IOException {
+//        // Путь к тестовому файлу Excel в директории ресурсов
+//        Path testFilePath = Paths.get("src/test/resources/Unsupported.xls");
+//        byte[] fileContent = Files.readAllBytes(testFilePath);
+//        testRunner.setProperty(MyProcessor.MY_PROPERTY, "неверное значение");
+//
+//
+//        testRunner.enqueue(fileContent);
+//        testRunner.run();
+//
+//        testRunner.assertTransferCount(MyProcessor.REL_FAIL, 1);
+//    }
+//
+    @Test
+    public void setTestRunner() throws IOException {
+        // Путь к тестовому файлу Excel в директории ресурсов
+        Path testFilePath = Paths.get("src/test/resources/Спар-СМ отчет октябрь 2023.xlsx");
+        byte[] fileContent = Files.readAllBytes(testFilePath);
+        testRunner.setProperty(MyProcessor.MY_PROPERTY, "RRN");
+
+
+
+        // Запуск процессора с тестовым FlowFile
+        testRunner.enqueue(fileContent);
+        testRunner.run();
+
+        // Проверка, что процессор корректно обработал FlowFile
+        testRunner.assertTransferCount(MyProcessor.REL_OK, 1);
+        // Дополнительные проверки...
     }
 
 }

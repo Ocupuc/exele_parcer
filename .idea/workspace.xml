@@ -4,33 +4,168 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="581fef0a-8c96-4571-be85-d6dab7e79643" name="Changes" comment="" />
+    <list default="true" id="581fef0a-8c96-4571-be85-d6dab7e79643" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-true-nar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-true-nar/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-true-processors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-true-processors/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-true-processors/src/main/java/org/example/processors/MyProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-true-processors/src/main/java/org/example/processors/MyProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-true-processors/src/main/resources/META-INF/services/org.apache.nifi.processor.Processor" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-true-processors/src/main/resources/META-INF/services/org.apache.nifi.processor.Processor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-true-processors/src/test/java/org/example/processors/MyProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-true-processors/src/test/java/org/example/processors/MyProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-true-processors/src/test/resources/Unsupported.xls" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-true-processors/src/test/resources/Unsupported.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-true-processors/src/test/resources/Спар-СМ отчет октябрь 2023.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-true-processors/src/test/resources/Спар-СМ отчет октябрь 2023.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2Y5R619L0sZEIypVnMnvOuvWpqi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Cubes/exele_parcer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ministr\IdeaProjects\exele_parcer\nifi-true-processors\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ministr\IdeaProjects\exele_parcer\nifi-true-processors\src\test\resources" />
+      <recent name="C:\Users\Ministr\IdeaProjects\exele_parcer\nifi-true-processors\src\main\java\org\example\processors" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyProcessorTest.setTestRunner">
+    <configuration name="MyProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-true-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.processors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.processors" />
+      <option name="MAIN_CLASS_NAME" value="org.example.processors.MyProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProcessorTest.setTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-true-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.processors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.processors" />
+      <option name="MAIN_CLASS_NAME" value="org.example.processors.MyProcessorTest" />
+      <option name="METHOD_NAME" value="setTestRunner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProcessorTest.testForFailSheet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-true-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.processors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.processors" />
+      <option name="MAIN_CLASS_NAME" value="org.example.processors.MyProcessorTest" />
+      <option name="METHOD_NAME" value="testForFailSheet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProcessorTest.testOnTrigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-true-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.processors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.processors" />
+      <option name="MAIN_CLASS_NAME" value="org.example.processors.MyProcessorTest" />
+      <option name="METHOD_NAME" value="testOnTrigger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProcessorTest.testProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-true-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.processors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.processors" />
+      <option name="MAIN_CLASS_NAME" value="org.example.processors.MyProcessorTest" />
+      <option name="METHOD_NAME" value="testProcessor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyProcessorTest.setTestRunner" />
+        <item itemvalue="JUnit.MyProcessorTest.testForFailSheet" />
+        <item itemvalue="JUnit.MyProcessorTest" />
+        <item itemvalue="JUnit.MyProcessorTest.testOnTrigger" />
+        <item itemvalue="JUnit.MyProcessorTest.testProcessor" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +174,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699813277473</updated>
-      <workItem from="1699813280346" duration="6000" />
+      <workItem from="1699813280346" duration="18992000" />
+      <workItem from="1699933052642" duration="19233000" />
+      <workItem from="1699956585819" duration="546000" />
+      <workItem from="1699957161193" duration="8154000" />
+      <workItem from="1700020002959" duration="1630000" />
+      <workItem from="1700033263882" duration="69000" />
+      <workItem from="1700033343689" duration="5469000" />
+      <workItem from="1700044947489" duration="828000" />
+      <workItem from="1700046518303" duration="3074000" />
+      <workItem from="1700081839516" duration="35000" />
+      <workItem from="1700410701855" duration="851000" />
+      <workItem from="1700411607821" duration="2799000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/5.2.4/poi-5.2.4.jar!/org/apache/poi/ss/usermodel/Workbook.class</url>
+          <line>7</line>
+          <properties field="PICTURE_TYPE_EMF" class="org.apache.poi.ss.usermodel.Workbook" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nifi-true-processors/src/test/java/org/example/processors/MyProcessorTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nifi-true-processors/src/main/java/org/example/processors/MyProcessor.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
